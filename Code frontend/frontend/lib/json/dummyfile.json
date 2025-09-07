@@ -1,0 +1,21 @@
+{
+  "Loại trang": "Lựa bài học",
+  "Nội dung bài học": [
+    {
+      "Unit 1": "Unit 1"
+    },{
+      "Unit 2": "Unit 2"
+    }, {
+      "Unit 3": "Unit 3"
+    }
+  ],
+  "Phân trang": [
+    {
+      "Trang trước": false
+    }, {
+      "Trang sau": "Tên file chứa bài học kế tiếp"
+    }, {
+      "Thoát": "tên file json chứa giao diện chính"
+    }
+  ]
+}
