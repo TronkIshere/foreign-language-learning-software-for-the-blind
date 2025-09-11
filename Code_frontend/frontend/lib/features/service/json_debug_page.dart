@@ -36,7 +36,7 @@ class _JsonDebugPageState extends State<JsonDebugPage> {
         return;
       }
 
-      final byteData = await rootBundle.load('assets/data/unit/unit_1.json');
+      final byteData = await rootBundle.load('assets/data/unit/unit_page_1.json');
       byteLength = byteData.lengthInBytes;
 
       String jsonString = utf8.decode(byteData.buffer.asUint8List());

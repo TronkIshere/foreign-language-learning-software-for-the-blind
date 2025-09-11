@@ -17,6 +17,7 @@ dependencies:
   flutter_tts: ^4.2.3
   flutter_blue_plus: ^1.35.10
   permission_handler: ^12.0.1
+  asset_fill: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -26,11 +27,19 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+    - assets/data/
+    - assets/data/lesson/
+    - assets/data/lesson/alphabet/
+    - assets/data/lesson/basic_vocabulary/
+    - assets/data/lesson/basic_vocabulary/unit_page_1/
+    - assets/data/lesson/listening_exercise/
+    - assets/data/lesson/speaking_exercise/
+    - assets/data/sub_menu/
     - assets/icon/
-    - assets/data/unit/
 
 flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: true
   image_path: "assets/icon/logo_icon.png"
+  android: true
+  ios: true
+  android_adaptive_icon:
+    foreground_image: "assets/icon/logo_icon.png"

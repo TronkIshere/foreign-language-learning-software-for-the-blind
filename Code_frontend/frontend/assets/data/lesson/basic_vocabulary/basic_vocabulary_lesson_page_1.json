@@ -1,0 +1,32 @@
+{
+  "basePath": "assets/data/lesson/basic_vocabulary/",
+  "Nội dung bài học": [
+    {
+      "Bài 1: Giới thiệu bản thân và gia đình": "unit_page_1/unit_page_1.json"
+    },{
+      "Bài 2: Số đếm và thời gian": "unit_page_2/unit_page_1.json"
+    }, {
+      "Bài 3: Nhà cửa và đồ vật": "unit_page_3/unit_page_1.json"
+    }, {
+      "Bài 4: Mua sắm và giá cả": "unit_page_4/unit_page_1.json"
+    }, {
+      "Bài 5: Ẩm thực và đồ uống": "unit_page_5/unit_page_1.json"
+    }, {
+      "Bài 6: Thói quen ăn uống": "unit_page_6/unit_page_1.json"
+    }, {
+      "Bài 7: Du lịch và phương tiện": "unit_page_7/unit_page_1.json"
+    }, {
+      "Bài 8: Thời tiết và mùa": "unit_page_8/unit_page_1.json"
+    }
+  ],
+
+  "Phân trang": [
+    {
+      "Trang trước": false
+    }, {
+      "Trang sau": "basic_vocabulary_lesson_page_2.json"
+    }, {
+      "Thoát": "assets/data/sub_menu/sub_menu_1.json"
+    }
+  ]
+}

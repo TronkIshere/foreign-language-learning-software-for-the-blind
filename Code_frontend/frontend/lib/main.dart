@@ -1,6 +1,4 @@
-import 'package:GreenHexagon/features/demo/demo_tts_page.dart';
-import 'package:GreenHexagon/features/demo/esp32_connect_page.dart';
-import 'package:GreenHexagon/features/unit_grid_page.dart';
+import 'package:GreenHexagon/features/home_page/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,11 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'GreenHexagon',
       theme: ThemeData.light(),
-      home: const UnitGridPage(),
-      routes: {
-        '/demo_tts': (_) => const DemoTtsPage(),
-        "/demo_bluetooth": (_) => const Esp32ConnectPage(),
-      },
+      home: HomePage(),
+      routes: {'/home': (_) => HomePage()},
     );
   }
 }
