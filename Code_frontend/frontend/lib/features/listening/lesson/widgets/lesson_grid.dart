@@ -6,8 +6,9 @@ import 'lesson_box.dart';
 class LessonGrid extends StatelessWidget {
   final List<Map<String, dynamic>> lessons;
   final TtsService ttsService;
+  final String basePath;
 
-  const LessonGrid({super.key, required this.lessons, required this.ttsService});
+  const LessonGrid({super.key, required this.lessons, required this.ttsService, required this.basePath});
 
   @override
   Widget build(BuildContext context) {
@@ -16,10 +17,11 @@ class LessonGrid extends StatelessWidget {
         double itemHeight = constraints.maxHeight / 4;
         return GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, mainAxisExtent: itemHeight),
-          itemCount: 8,
+          itemCount: lessons.length,
           itemBuilder: (context, index) {
-            String text = index < lessons.length ? lessons[index].keys.first.toString() : "Unit ${index + 1}";
-            return LessonBox(text: text, ttsService: ttsService);
+            String title = lessons[index].keys.first;
+            String path = lessons[index].values.first;
+            return LessonBox(text: title, ttsService: ttsService, jsonPath: "$basePath$path");
           },
         );
       },

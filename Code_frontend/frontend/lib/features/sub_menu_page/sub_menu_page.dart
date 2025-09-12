@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:GreenHexagon/features/lesson/lesson_page.dart';
+import 'package:GreenHexagon/features/listening/lesson/lesson_page.dart';
 import 'package:GreenHexagon/features/service/tts_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;

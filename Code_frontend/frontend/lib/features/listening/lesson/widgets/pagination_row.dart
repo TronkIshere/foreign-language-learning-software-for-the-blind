@@ -1,4 +1,4 @@
-import 'package:GreenHexagon/features/lesson/widgets/pagination_button.dart';
+import 'package:GreenHexagon/features/listening/unit/widgets/pagination_button.dart';
 import 'package:GreenHexagon/features/service/tts_service.dart';
 import 'package:flutter/material.dart';
 

@@ -1,20 +1,20 @@
 import 'dart:convert';
 
-import 'package:GreenHexagon/features/lesson/widgets/lesson_grid.dart';
+import 'package:GreenHexagon/features/listening/lesson/widgets/lesson_grid.dart';
+import 'package:GreenHexagon/features/listening/unit/widgets/pagination_row.dart';
 import 'package:GreenHexagon/features/service/tts_service.dart';
-import 'package:GreenHexagon/features/unit/widgets/pagination_row.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
-class UnitPage extends StatefulWidget {
+class LessonPage extends StatefulWidget {
   final String jsonPath;
-  const UnitPage({super.key, required this.jsonPath});
+  const LessonPage({super.key, required this.jsonPath});
 
   @override
-  State<UnitPage> createState() => _UnitPageState();
+  State<LessonPage> createState() => _LessonPageState();
 }
 
-class _UnitPageState extends State<UnitPage> {
+class _LessonPageState extends State<LessonPage> {
   Map<String, dynamic>? data;
   String? basePath;
   final TtsService ttsService = TtsService();
@@ -71,7 +71,7 @@ class _UnitPageState extends State<UnitPage> {
           children: [
             Flexible(
               flex: 4,
-              child: LessonGrid(lessons: lessons, ttsService: ttsService),
+              child: LessonGrid(lessons: lessons, ttsService: ttsService, basePath: basePath ?? ""),
             ),
             Flexible(
               flex: 1,
