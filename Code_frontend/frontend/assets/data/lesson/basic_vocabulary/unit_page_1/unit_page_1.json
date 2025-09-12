@@ -24,7 +24,7 @@
     {
       "Trang trước": false
     }, {
-      "Trang sau": "assets/data/unit/unit_page_2.json"
+      "Trang sau": "unit_page_2.json"
     }, {
       "Thoát": "assets/data/sub_menu/sub_menu_1.json"
     }

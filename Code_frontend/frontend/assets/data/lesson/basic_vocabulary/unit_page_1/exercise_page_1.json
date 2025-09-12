@@ -6,6 +6,6 @@
     { "Công việc": "Job" },
     { "Quê hương": "Country" },
     { "Sở thích": "Hobby" },
-    { "Bản Tiếng Việt": "City" }
+    { "Thành phố": "City" }
   ]
 }

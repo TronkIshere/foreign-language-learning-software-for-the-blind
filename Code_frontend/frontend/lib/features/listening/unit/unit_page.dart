@@ -71,7 +71,7 @@ class _UnitPageState extends State<UnitPage> {
           children: [
             Flexible(
               flex: 4,
-              child: UnitGrid(lessons: lessons, ttsService: ttsService),
+              child: UnitGrid(lessons: lessons, ttsService: ttsService, basePath: basePath ?? ""),
             ),
             Flexible(
               flex: 1,
