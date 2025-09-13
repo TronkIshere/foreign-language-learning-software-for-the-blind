@@ -17,17 +17,20 @@ class UnitGrid extends StatelessWidget {
         double itemHeight = constraints.maxHeight / 4;
         return GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, mainAxisExtent: itemHeight),
-          itemCount: 8, // luôn hiển thị 8 ô
+          itemCount: 8,
           itemBuilder: (context, index) {
             if (index < lessons.length) {
               final String text = lessons[index].keys.first.toString();
-              final String fileName = lessons[index].values.first.toString();
+              final dynamic value = lessons[index].values.first;
 
-              final String jsonPath = "$basePath$fileName";
+              String? jsonPath;
+              if (value != false) {
+                jsonPath = "$basePath$value";
+              }
 
               return UnitBox(text: text, ttsService: ttsService, jsonPath: jsonPath);
             } else {
-              return UnitBox(text: "Unit ${index + 1}", ttsService: ttsService, jsonPath: "");
+              return UnitBox(text: "Unit ${index + 1}", ttsService: ttsService, jsonPath: null);
             }
           },
         );

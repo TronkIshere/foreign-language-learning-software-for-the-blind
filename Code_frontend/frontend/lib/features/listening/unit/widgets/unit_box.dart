@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class UnitBox extends StatelessWidget {
   final String text;
   final TtsService ttsService;
-  final String jsonPath;
+  final String? jsonPath;
 
   const UnitBox({super.key, required this.text, required this.ttsService, required this.jsonPath});
 
@@ -13,7 +13,7 @@ class UnitBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () => ttsService.speakVi(text),
-      onDoubleTap: () => _openExercisePage(context),
+      onDoubleTap: () => _handleDoubleTap(context),
       child: Container(
         decoration: BoxDecoration(
           border: Border.all(color: Colors.white),
@@ -29,7 +29,11 @@ class UnitBox extends StatelessWidget {
     );
   }
 
-  void _openExercisePage(BuildContext context) {
-    Navigator.push(context, MaterialPageRoute(builder: (context) => ExercisePage(jsonPath: jsonPath)));
+  void _handleDoubleTap(BuildContext context) {
+    if (jsonPath == null) {
+      ttsService.speakVi("$text chưa có");
+    } else {
+      Navigator.push(context, MaterialPageRoute(builder: (context) => ExercisePage(jsonPath: jsonPath!)));
+    }
   }
 }
