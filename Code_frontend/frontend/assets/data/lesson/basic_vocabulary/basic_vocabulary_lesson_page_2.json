@@ -2,21 +2,21 @@
   "basePath": "assets/data/lesson/basic_vocabulary/",
   "Nội dung bài học": [
     {
-      "Bài 9: Sở thích và giải trí": "unit_page_9/unit_page_1.json"
+      "Bài 9: Sở thích và giải trí": "lesson_9/unit_page_1.json"
     },{
-      "Bài 10: Sức khỏe và cơ thể": "unit_page_10/unit_page_1.json"
+      "Bài 10: Sức khỏe và cơ thể": "lesson_10/unit_page_1.json"
     }, {
-      "Bài 11: Mô tả người và vật": "unit_page_11/unit_page_1.json"
+      "Bài 11: Mô tả người và vật": "lesson_11/unit_page_1.json"
     }, {
-      "Bài 12: Giao tiếp hàng ngày": "unit_page_12/unit_page_1.json"
+      "Bài 12: Giao tiếp hàng ngày": "lesson_12/unit_page_1.json"
     }, {
-      "Vẫn đang cập nhật": ""
+      "Vẫn đang cập nhật": false
     }, {
-      "Vẫn đang cập nhật": ""
+      "Vẫn đang cập nhật": false
     }, {
-      "Vẫn đang cập nhật": ""
+      "Vẫn đang cập nhật": false
     }, {
-      "Vẫn đang cập nhật": ""
+      "Vẫn đang cập nhật": false
     }
   ],
 
