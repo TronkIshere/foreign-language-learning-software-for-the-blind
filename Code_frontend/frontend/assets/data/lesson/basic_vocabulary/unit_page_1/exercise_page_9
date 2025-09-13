@@ -1,0 +1,11 @@
+{
+  "Bài 9: Sở thích-Thêm ": "Hobby",
+  "Nội dung bài học": [
+    { "Cờ": "Chess" },
+    { "Leo núi": "Hiking" },
+    { "Bơi lội": "Swimming" },
+    { "Ca hát": "Singing" },
+    { "Vẽ tranh": "Drawing" },
+    { "Câu cá": "Fishing" }
+  ]
+}

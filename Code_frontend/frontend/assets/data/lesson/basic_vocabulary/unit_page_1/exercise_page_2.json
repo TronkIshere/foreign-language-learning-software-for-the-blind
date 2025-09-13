@@ -1,0 +1,11 @@
+{
+  "Bài 1: thông tin cá nhân": "Personal Information",
+  "Nội dung bài học": [
+    { "Tên": "Name" },
+    { "Tuổi": "Age" },
+    { "Công việc": "Job" },
+    { "Quê hương": "Country" },
+    { "Sở thích": "Hobby" },
+    { "Thành phố": "City" }
+  ]
+}

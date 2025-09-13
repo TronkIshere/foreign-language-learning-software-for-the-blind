@@ -1,0 +1,11 @@
+{
+  "Bài 3: Gia đình-Thêm ": "Family",
+  "Nội dung bài học": [
+    { "Con trai(Trong gia đình)": "Son" },
+    { "Con gái(Trong gia đình)": "Daughther" },
+    { "Cậu, chú": "Uncle" },
+    { "Dì,cô": "Aunt" },
+    { "Cháu gái": "Niece" },
+    { "Ông bà": "Grandparent" }
+  ]
+}

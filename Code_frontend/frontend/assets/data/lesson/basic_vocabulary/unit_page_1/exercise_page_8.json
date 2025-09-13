@@ -1,0 +1,11 @@
+{
+  "Bài 8: Sở thích ": "Hobby",
+  "Nội dung bài học": [
+    { "Âm nhạc": "Music" },
+    { "Phim": "Movie" },
+    { "Thể thao": "Sport" },
+    { "Sách": "Book" },
+    { "Du lịch": "Travel" },
+    { "Đồ ăn": "Food" }
+  ]
+}
