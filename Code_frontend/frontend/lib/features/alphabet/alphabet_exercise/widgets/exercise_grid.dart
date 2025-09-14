@@ -1,5 +1,5 @@
 import 'package:GreenHexagon/core/service/tts_service.dart';
-import 'package:GreenHexagon/features/basic_vocabulary/exercise/widgets/exercise_box.dart';
+import 'package:GreenHexagon/features/basic_vocabulary/basic_vocabulary_exercise/widgets/exercise_box.dart';
 import 'package:flutter/material.dart';
 
 class ExerciseGrid extends StatelessWidget {

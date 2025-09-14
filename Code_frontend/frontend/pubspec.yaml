@@ -33,8 +33,9 @@ flutter:
     - assets/data/lesson/basic_vocabulary/
     - assets/data/lesson/basic_vocabulary/lesson_1/
     - assets/data/lesson/basic_vocabulary/lesson_2/
-    - assets/data/lesson/listening_exercise/
-    - assets/data/lesson/speaking_exercise/
+    - assets/data/lesson/basic_vocabulary/lesson_3/
+    - assets/data/lesson/listening/
+    - assets/data/lesson/speaking/
     - assets/data/sub_menu/
     - assets/icon/
 

@@ -1,5 +1,5 @@
 import 'package:GreenHexagon/core/service/tts_service.dart';
-import 'package:GreenHexagon/features/basic_vocabulary/exercise/exercise_page.dart';
+import 'package:GreenHexagon/features/basic_vocabulary/basic_vocabulary_exercise/exercise_page.dart';
 import 'package:flutter/material.dart';
 
 class UnitBox extends StatelessWidget {

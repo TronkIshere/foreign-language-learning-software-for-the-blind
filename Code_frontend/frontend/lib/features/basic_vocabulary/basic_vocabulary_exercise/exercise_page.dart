@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:GreenHexagon/core/service/tts_service.dart';
-import 'package:GreenHexagon/features/basic_vocabulary/exercise/widgets/exercise_back_button.dart';
-import 'package:GreenHexagon/features/basic_vocabulary/exercise/widgets/exercise_grid.dart';
-import 'package:GreenHexagon/features/basic_vocabulary/exercise/widgets/exercise_header.dart';
+import 'package:GreenHexagon/features/basic_vocabulary/basic_vocabulary_exercise/widgets/exercise_back_button.dart';
+import 'package:GreenHexagon/features/basic_vocabulary/basic_vocabulary_exercise/widgets/exercise_grid.dart';
+import 'package:GreenHexagon/features/basic_vocabulary/basic_vocabulary_exercise/widgets/exercise_header.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
