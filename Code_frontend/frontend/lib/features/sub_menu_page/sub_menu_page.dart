@@ -1,7 +1,10 @@
 import 'dart:convert';
 
-import 'package:GreenHexagon/features/listening/lesson/lesson_page.dart';
-import 'package:GreenHexagon/features/service/tts_service.dart';
+import 'package:GreenHexagon/core/service/tts_service.dart';
+import 'package:GreenHexagon/features/alphabet/alphabet_lesson/alphabet_lesson_page.dart';
+import 'package:GreenHexagon/features/basic_vocabulary/basic_vocabulary_lesson/basic_vocabulary_lesson_page.dart';
+import 'package:GreenHexagon/features/listening/listening_lesson/listening_lesson_page.dart';
+import 'package:GreenHexagon/features/speaking/speaking_lesson/speaking_lesson_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
@@ -48,10 +51,7 @@ class _SubMenuPageState extends State<SubMenuPage> {
                         ttsService: ttsService,
                         onDoubleTap: () {
                           final lessonPath = "$lessonAssetPath${entry.value}";
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => LessonPage(jsonPath: lessonPath)),
-                          );
+                          _openLessonPage(context, entry.key, lessonPath);
                         },
                       ),
                     ),
@@ -69,6 +69,25 @@ class _SubMenuPageState extends State<SubMenuPage> {
               ),
       ),
     );
+  }
+
+  void _openLessonPage(BuildContext context, String title, String path) {
+    Widget page;
+
+    if (title.contains("Bảng chữ cái")) {
+      page = AlphabetLessonPage(jsonPath: path);
+    } else if (title.contains("Từ vựng")) {
+      page = BasicVocabularyLessonPage(jsonPath: path);
+    } else if (title.contains("Luyện nghe")) {
+      page = ListeningLessonPage(jsonPath: path);
+    } else if (title.contains("Luyện nói")) {
+      page = SpeakingLessonPage(jsonPath: path);
+    } else {
+      ttsService.speakVi("Trang này chưa được hỗ trợ");
+      return;
+    }
+
+    Navigator.push(context, MaterialPageRoute(builder: (context) => page));
   }
 }
 

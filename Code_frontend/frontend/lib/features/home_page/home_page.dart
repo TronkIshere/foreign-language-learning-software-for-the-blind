@@ -1,4 +1,4 @@
-import 'package:GreenHexagon/features/service/tts_service.dart';
+import 'package:GreenHexagon/core/service/tts_service.dart';
 import 'package:GreenHexagon/features/sub_menu_page/sub_menu_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
