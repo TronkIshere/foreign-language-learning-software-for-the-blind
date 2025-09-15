@@ -1,0 +1,32 @@
+{
+  "basePath": "assets/data/lesson/basic_vocabulary/lesson_1/",
+  "Nội dung bài học": [
+    {
+      "Unit 1": "exercise_page_1.json"
+    },{
+      "Unit 2": "exercise_page_2.json"
+    }, {
+      "Unit 3": "exercise_page_3.json"
+    }, {
+      "Unit 4": "exercise_page_4.json"
+    }, {
+      "Unit 5": "exercise_page_5.json"
+    }, {
+      "Unit 6": "exercise_page_6.json"
+    }, {
+      "Unit 7": false
+    }, {
+      "Unit 8": false
+    }
+  ],
+
+  "Phân trang": [
+    {
+      "Trang trước": false
+    }, {
+      "Trang sau": "unit_page_2.json"
+    }, {
+      "Thoát": "assets/data/sub_menu/sub_menu_1.json"
+    }
+  ]
+}

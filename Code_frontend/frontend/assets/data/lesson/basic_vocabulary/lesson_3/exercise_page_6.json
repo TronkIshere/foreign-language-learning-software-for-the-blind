@@ -1,0 +1,11 @@
+{
+  "Bài 6:Mô tả ngôi nhà ":"House Description",
+  "Nội dung bài học": [
+    { "To, lớn": "Big" },
+    { "Nhỏ": "Small" },
+    { "Mới": "New" },
+    { "Cũ": "Old" },
+    { "Hiện đại": "Hiện đại" },
+    { "Đẹp": "Beautiful" }
+  ]
+}

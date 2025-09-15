@@ -1,0 +1,11 @@
+{
+  "Bài 5:Hoạt động trong nhà":"Indoor Activity",
+  "Nội dung bài học": [
+    { "Lau chùi, dọn dẹp": "Cleaning" },
+    { "Nấu ăn": "Cooking" },
+    { "Ngủ": "Sleeping" },
+    { "Rửa, giặt": "Washing" },
+    { "Xem,coi": "Watching" },
+    { "Đọc": "Reading" }
+  ]
+}

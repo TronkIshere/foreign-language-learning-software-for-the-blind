@@ -1,0 +1,11 @@
+{
+  "Bài 1:Nhà cửa và đồ vật":"House and Furniture",
+  "Nội dung bài học": [
+    { "Nhà bếp": "Kitchen" },
+    { "Phòng ngủ": "Bedroom" },
+    { "Phòng tắm": "Bathroom" },
+    { "Phòng khách": "Living room" },
+    { "Khu vườn": "Garden" },
+    { "Ban công": "Balcony" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Bài 4:Đồ điện tử":"Electronics",
+  "Nội dung bài học": [
+    { "Máy tính": "Computer" },
+    { "Ti-vi": "Television" },
+    { "Tủ lạnh": "Fridge" },
+    { "Quạt máy": "Fan" },
+    { "Light bulb": "Bóng đèn" },
+    { "Cục sạc": "Charger" }
+  ]
+}

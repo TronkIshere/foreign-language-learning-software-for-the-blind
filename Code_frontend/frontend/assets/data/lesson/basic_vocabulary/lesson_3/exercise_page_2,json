@@ -1,0 +1,11 @@
+{
+  "Bài 2:Đồ nội thất":"Furniture",
+  "Nội dung bài học": [
+    { "Bàn": "Table" },
+    { "Ghế": "Chair" },
+    { "Giường": "Bed" },
+    { "Ghế sô-fa": "Sofa" },
+    { "Cây đèn": "Lamp" },
+    { "Kệ sách": "Bookshelf" }
+  ]
+}
