@@ -1,0 +1,11 @@
+{
+  "Bài 3:Hoạt động công việc":"Work Activity",
+  "Nội dung bài học": [
+    { "Làm việc": "Work" },
+    { "Gọi điện": "Call" },
+    { "Thư điện tử": "Email" },
+    { "Học": "Study" },
+    { "Viết": "Write" },
+    { "Ngày hạn chót": "Deadline" }
+  ]
+}

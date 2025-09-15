@@ -1,11 +1,11 @@
 {
-  "Bài : ":"",
+  "Bài 1:Ngề nghiệp":"Job",
   "Nội dung bài học": [
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" }
+    { "Giáo viên": "Teacher" },
+    { "Bác sĩ": "Doctor" },
+    { "Học sinh,sinh viên": "Student" },
+    { "Kỹ sư": "Engineer" },
+    { "Tài xế": "Driver" },
+    { "Y tá": "Nurse" }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "Bài 6:Công việc hằng ngày":"Work Daily",
+  "Nội dung bài học": [
+    { "Bắt đầu": "Start" },
+    { "Hoàn thành": "Finish" },
+    { "Bận rộn": "Busy" },
+    { "Nghỉ ngơi": "Rest" },
+    { "Dự án": "Project" },
+    { "Nhiệm vụ": "Task" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Bài 5:Đồng nghiệp":"Collegue",
+  "Nội dung bài học": [
+    { "Đội,nhóm": "Team" },
+    { "Người quản lý": "Manager" },
+    { "Đối tác": "Partner" },
+    { "Khách hàng": "Client" },
+    { "Nhân viên": "Staff" },
+    { "Công nhân": "Worker" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Bài 2:Nơi làm việc":"Workplace",
+  "Nội dung bài học": [
+    { "Văn phòng": "Office" },
+    { "Trường học": "School" },
+    { "Nhà máy": "Factory" },
+    { "Bệnh viện": "Hospital" },
+    { "Công ty": "Company" },
+    { "Đại học": "University" }
+  ]
+}

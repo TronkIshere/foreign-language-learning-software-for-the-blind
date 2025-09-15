@@ -1,0 +1,11 @@
+{
+  "Bài 4:Kỹ năng công việc":"Work Skill",
+  "Nội dung bài học": [
+    { "Kinh nghiệm": "Experience" },
+    { "Tiếp thu,học tập": "Learn" },
+    { "Dạy học": "Teach" },
+    { "Quản lý": "Manage" },
+    { "Tạo ra": "Create" },
+    { "Kỹ năng": "Skill" }
+  ]
+}
