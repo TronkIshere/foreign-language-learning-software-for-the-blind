@@ -1,0 +1,11 @@
+{
+  "Bài 5:Mô tả sản phẩm":"Size Description",
+  "Nội dung bài học": [
+    { "Kích cỡ": "Size" },
+    { "Màu sắc": "Color" },
+    { "To lớn": "Big" },
+    { "Nhỏ": "Small" },
+    { "Mới": "New" },
+    { "Chất lượng": "Quality" }
+  ]
+}

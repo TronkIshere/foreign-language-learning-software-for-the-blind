@@ -1,0 +1,11 @@
+{
+  "Bài 4:Thanh toán":"Payment",
+  "Nội dung bài học": [
+    { "Hóa đơn": "Receipt" },
+    { "Tiền thừa": "Change" },
+    { "Bán hạ giá": "Sale" },
+    { "Giảm giá": "Discount" },
+    { "Đơn vị tiền tệ": "Currency" },
+    { "Tiền mặt": "Cash" }
+  ]
+}

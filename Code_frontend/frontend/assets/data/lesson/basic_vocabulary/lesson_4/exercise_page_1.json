@@ -1,11 +1,11 @@
 {
-  "Bài : ":"",
+  "Bài 1:Cửa hàng":"Shop",
   "Nội dung bài học": [
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" }
+    { "Cửa hàng": "Shop" },
+    { "Chợ": "market" },
+    { "Siêu thị": "Supermarket" },
+    { "Nhà kho": "Storage" },
+    { "Thu ngân": "Cashier" },
+    { "Kệ": "Shelf" }
   ]
 }

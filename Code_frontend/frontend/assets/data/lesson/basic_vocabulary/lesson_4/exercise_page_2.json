@@ -1,0 +1,11 @@
+{
+  "Bài 2:Đồ vật mua sắm":"Shopping Item",
+  "Nội dung bài học": [
+    { "Quần áo": "Clothes" },
+    { "Đôi giày": "Shoes" },
+    { "Áo thun": "Shirt" },
+    { "Quần jean": "Jeans" },
+    { "Túi xách tay": "Handbag" },
+    { "Mũ": "Hat" }
+  ]
+}
