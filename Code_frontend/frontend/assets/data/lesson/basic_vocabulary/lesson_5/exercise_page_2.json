@@ -1,0 +1,11 @@
+{
+  "Bài 2:Đồ uống":"Drinks",
+  "Nội dung bài học": [
+    { "Nước lọc": "Water" },
+    { "Cà phê": "Coffee" },
+    { "Trà": "Tea" },
+    { "Nước ép": "Juice" },
+    { "Sữa": "Milk" },
+    { "Nước có ga": "Soda" }
+  ]
+}

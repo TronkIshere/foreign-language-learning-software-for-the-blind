@@ -1,11 +1,11 @@
 {
-  "Bài : ":"",
+  "Bài 1:Thực phẩm":"Food",
   "Nội dung bài học": [
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" }
+    { "Bánh mì": "Bread" },
+    { "Cơm,gạo": "Rice" },
+    { "Thịt": "Meat" },
+    { "Cá": "Fish" },
+    { "Trái cây": "Fruit" },
+    { "Rau củ": "Vegetable" }
   ]
 }

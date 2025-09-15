@@ -1,0 +1,11 @@
+{
+  "Bài 3:Bữa ăn":"Meal",
+  "Nội dung bài học": [
+    { "Bữa sáng": "Breakfast" },
+    { "Bữa trưa": "Lunch" },
+    { "Bữa tối": "Dinner" },
+    { "Đồ ăn vặt": "Snack" },
+    { "Ăn": "Eat" },
+    { "Tiệc": "Party" }
+  ]
+}

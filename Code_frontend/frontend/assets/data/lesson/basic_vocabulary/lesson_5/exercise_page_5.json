@@ -1,0 +1,11 @@
+{
+  "Bài 5:Món ăn":"Cuisine",
+  "Nội dung bài học": [
+    { "Súp,canh": "Soup" },
+    { "Rau trộn": "Salad" },
+    { "Bánh pizza": "Pizza" },
+    { "Mỳ,phở,bún": "Noddle" },
+    { "Bánh kẹp": "Sandwich" },
+    { "Bánh ngọt": "Cake" }
+  ]
+}
