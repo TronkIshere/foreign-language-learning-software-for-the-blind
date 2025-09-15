@@ -1,0 +1,11 @@
+{
+  "Bài 6:Ngày và tháng":"Day and Month",
+  "Nội dung bài học": [
+    { "Thứ 2": "Monday" },
+    { "Thứ 3": "Tuesday" },
+    { "Thứ 4": "Wednesday" },
+    { "Thứ 5": "Thursday" },
+    { "Thứ 6": "Friday" },
+    { "Thứ 7": "Saturday" }
+  ]
+}

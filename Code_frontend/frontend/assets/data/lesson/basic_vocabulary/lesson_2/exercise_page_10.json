@@ -1,0 +1,11 @@
+{
+  "Bài 10:Giờ giấc":"Daily",
+  "Nội dung bài học": [
+    { "Buổi sáng": "Morning" },
+    { "Buổi trưa": "Afternoon" },
+    { "Buổi chiều": "Evening" },
+    { "Buổi tối": "Night" },
+    { "Giờ": "Hour" },
+    { "Phút": "Minute" }
+  ]
+}

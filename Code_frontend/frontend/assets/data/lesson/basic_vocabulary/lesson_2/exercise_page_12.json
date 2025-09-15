@@ -1,0 +1,11 @@
+{
+  "Bài 12:Khoảng thời gian":"Period of time",
+  "Nội dung bài học": [
+    { "Hôm qua": "Yesterday" },
+    { "Ngày mai": "Tomorrow" },
+    { "Sớm": "Soon" },
+    { "Lát nữa": "Later" },
+    { "Sau": "After" },
+    { "Trước": "Before" }
+  ]
+}

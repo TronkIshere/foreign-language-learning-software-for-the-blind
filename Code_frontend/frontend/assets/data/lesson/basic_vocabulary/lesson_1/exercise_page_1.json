@@ -1,11 +1,11 @@
 {
-  "Bài 2: Gia đình ": "Family",
+  "Bài 1: thông tin cá nhân": "Personal Information",
   "Nội dung bài học": [
-    { "Mẹ": "Mother" },
-    { "Bố": "Father" },
-    { "Chị gái em gái": "Sister" },
-    { "Anh trai em trai": "Brother" },
-    { "Vợ": "Wife" },
-    { "Chồng": "Husband" }
+    { "Tên": "Name" },
+    { "Tuổi": "Age" },
+    { "Công việc": "Job" },
+    { "Quê hương": "Country" },
+    { "Sở thích": "Hobby" },
+    { "Thành phố": "City" }
   ]
 }

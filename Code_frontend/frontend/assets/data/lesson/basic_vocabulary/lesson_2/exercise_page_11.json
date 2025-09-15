@@ -1,0 +1,11 @@
+{
+  "Bài 11:Kế hoạch":"Plan",
+  "Nội dung bài học": [
+    { "Lịch trình": "Schedule" },
+    { "Buổi họp": "Meeting" },
+    { "Sự kiện": "Event" },
+    { "Kì nghỉ": "Holiday" },
+    { "Cuối tuần": "Weekend" },
+    { "Ngày trong tuần": "Weekday" }
+  ]
+}
