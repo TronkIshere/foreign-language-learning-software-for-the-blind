@@ -1,11 +1,11 @@
 {
-  "Bài : ":"",
+  "Bài 1:Phương tiện giao thông ":"Transportation",
   "Nội dung bài học": [
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" },
-    { "": "" }
+    { "Xe buýt": "Bus" },
+    { "Tàu lửa": "Traine" },
+    { "Máy bay": "Plane" },
+    { "Xe đạp": "Bike" },
+    { "Xe máy": "Motorbike" },
+    { "Xe hơi": "Car" }
   ]
 }

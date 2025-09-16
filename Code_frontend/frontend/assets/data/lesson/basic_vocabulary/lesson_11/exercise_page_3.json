@@ -1,0 +1,11 @@
+{
+  "Bài 3:Quần áo":"Clothes",
+  "Nội dung bài học": [
+    { "Áo sơ mi": "Shirt" },
+    { "Váy": "Dress" },
+    { "Áo khoác": "Jacket" },
+    { "Mũ": "Hat" },
+    { "Váy": "Skirt" },
+    { "Quần ngắn": "Shorts" }
+  ]
+}

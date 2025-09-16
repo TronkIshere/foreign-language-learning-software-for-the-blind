@@ -1,0 +1,11 @@
+{
+  "Bài 2:Tính cách":"Personality",
+  "Nội dung bài học": [
+    { "Thân thiện": "Friendly" },
+    { "Hài hước": "Funny" },
+    { "Lười biếng": "Lazy" },
+    { "Thông minh": "Smart" },
+    { "Hiền lành": "Kind" },
+    { "Trầm tĩnh": "Calm" }
+  ]
+}

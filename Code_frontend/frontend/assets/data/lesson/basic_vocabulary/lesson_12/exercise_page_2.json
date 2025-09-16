@@ -1,0 +1,11 @@
+{
+  "Bài 2:Hỏi đáp":"Question",
+  "Nội dung bài học": [
+    { "Ở đâu": "Where" },
+    { "Cái gì": "What" },
+    { "Khi nào": "When" },
+    { "Ai": "Who" },
+    { "Vì sao": "Why" },
+    { "Làm sao": "How" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Bài 3:Thể thao":"Sport",
+  "Nội dung bài học": [
+    { "Bóng đá": "Football" },
+    { "Bóng rổ": "Basketball" },
+    { "Cầu lông": "Badminton" },
+    { "Bóng chày": "Baseball" },
+    { "Bóng chuyền": "Volleyball" },
+    { "Quần vợt": "Tennis" }
+  ]
+}

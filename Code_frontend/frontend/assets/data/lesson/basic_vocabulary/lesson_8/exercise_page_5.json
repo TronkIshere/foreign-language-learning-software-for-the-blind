@@ -1,0 +1,11 @@
+{
+  "Bài 5:Dự báo thời tiết":"Weather forecast",
+  "Nội dung bài học": [
+    { "Nhiệt độ": "Temperature" },
+    { "Ấm áp": "Warm" },
+    { "Mát mẻ": "Cool" },
+    { "Độ": "Degree" },
+    { "Thay đổi": "Change" },
+    { "Ẩm ướt": "Wet" }
+  ]
+}

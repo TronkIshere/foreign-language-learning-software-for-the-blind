@@ -1,0 +1,11 @@
+{
+  "Bài 5:Thói quen sức khỏe":"Health habit",
+  "Nội dung bài học": [
+    { "Giảm cân": "Diet" },
+    { "Nghỉ ngơi": "Rest" },
+    { "Khởi động": "Warm up" },
+    { "Thiền": "Mediation" },
+    { "Bỏ": "Quit" },
+    { "Ngủ": "Sleep" }
+  ]
+}

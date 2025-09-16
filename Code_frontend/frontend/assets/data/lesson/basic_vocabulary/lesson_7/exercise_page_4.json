@@ -1,0 +1,11 @@
+{
+  "Bài 4:Hành lý":"Luggage",
+  "Nội dung bài học": [
+    { "Va-li": "Suitcase" },
+    { "Ba-lô": "Backpack" },
+    { "Vé": "Ticket" },
+    { "Hộ chiếu": "Passport" },
+    { "Bản đồ": "Map" },
+    { "Máy ảnh": "Camera" }
+  ]
+}

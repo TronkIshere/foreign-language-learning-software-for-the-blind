@@ -1,0 +1,11 @@
+{
+  "Bài 1:Ngoại hình":"Appearance",
+  "Nội dung bài học": [
+    { "Cao": "Tall" },
+    { "Thấp": "Short" },
+    { "Trẻ": "Young" },
+    { "Già": "Old" },
+    { "Đẹp trai": "Handsome" },
+    { "Xinh đẹp": "Pretty" }
+  ]
+}

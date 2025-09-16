@@ -1,0 +1,11 @@
+{
+  "Bài 2:Âm nhạc và phim":"Music and movie",
+  "Nội dung bài học": [
+    { "Bài hát": "Song" },
+    { "Chương trình": "Show" },
+    { "Kênh": "Channel" },
+    { "Buổi hòa nhạc": "Concert" },
+    { "Cổ điển": "Classical" },
+    { "Thể loại": "Genre" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Bài 1:Bộ phận cơ thể":"Boday part",
+  "Nội dung bài học": [
+    { "Đầu": "Head" },
+    { "Cánh tay": "Arm" },
+    { "Cái chân": "Leg" },
+    { "Bàn tay": "Hand" },
+    { "Bàn chân": "Foot" },
+    { "Con mắt": "Eye" }
+  ]
+}

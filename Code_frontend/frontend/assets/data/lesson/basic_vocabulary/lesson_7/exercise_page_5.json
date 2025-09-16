@@ -1,0 +1,11 @@
+{
+  "Bài 5:Hỏi đường đi":"Asking for direction",
+  "Nội dung bài học": [
+    { "Trái": "Left" },
+    { "Phải": "Rìght" },
+    { "Thẳng": "Straight" },
+    { "Quẹo": "Turn" },
+    { "Gần": "Near" },
+    { "Xa": "Far" }
+  ]
+}

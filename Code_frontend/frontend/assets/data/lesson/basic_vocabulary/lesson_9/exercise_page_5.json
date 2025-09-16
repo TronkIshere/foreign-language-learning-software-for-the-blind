@@ -1,0 +1,11 @@
+{
+  "Bài 5:Thiết bị giải trí":"Entertainment device",
+  "Nội dung bài học": [
+    { "Máy phát thanh": "Speaker" },
+    { "Tai nghe": "Headphone" },
+    { "Màn hình": "Screen" },
+    { "Đài phát thanh": "Radio" },
+    { "Máy tính xách tay": "Laptop" },
+    { "Điện thoại cảm ứng": "Smartphone" }
+  ]
+}

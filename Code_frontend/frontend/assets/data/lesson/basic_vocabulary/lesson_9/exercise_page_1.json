@@ -1,0 +1,11 @@
+{
+  "Bài 1:Hoạt động giải trí":"Entertainment activity",
+  "Nội dung bài học": [
+    { "Đọc": "Read" },
+    { "Xem,coi": "Watch" },
+    { "Nghe": "Listen" },
+    { "Chơi": "Play" },
+    { "Nhảy múa": "Dance" },
+    { "Ca hát": "Sing" }
+  ]
+}

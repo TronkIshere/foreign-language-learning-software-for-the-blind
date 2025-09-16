@@ -1,0 +1,11 @@
+{
+  "Bài 4:Bác sĩ và bệnh":"Doctor and illness",
+  "Nội dung bài học": [
+    { "Đau": "Ache" },
+    { "Thuốc men": "Medicine" },
+    { "Cảm lạnh": "Cold" },
+    { "Ho": "Cough" },
+    { "Sốt": "Fever" },
+    { "Đau đầu": "Headache" }
+  ]
+}

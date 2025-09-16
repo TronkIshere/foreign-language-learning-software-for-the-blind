@@ -1,0 +1,11 @@
+{
+  "Bài 1:Chào hỏi":"Greeting",
+  "Nội dung bài học": [
+    { "Xin chào": "Hello" },
+    { "Tạm biệt": "Goodbye" },
+    { "Làm ơn": "Please" },
+    { "Cảm ơn": "Thank you" },
+    { "Xin lỗi": "Sorry" },
+    { "Chào mừng": "Welcome" }
+  ]
+}

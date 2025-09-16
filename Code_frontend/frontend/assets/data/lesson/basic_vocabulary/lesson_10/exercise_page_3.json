@@ -1,0 +1,11 @@
+{
+  "Bài 3:Sức khỏe":"Health",
+  "Nội dung bài học": [
+    { "Ốm,bệnh": "Sick" },
+    { "Mệt mỏi": "Tired" },
+    { "Khỏe tràn trề": "Strong" },
+    { "Yếu ớt": "Weak" },
+    { "Ngất,bất tỉnh": "Faint" },
+    { "Không khỏe": "Unwell" }
+  ]
+}

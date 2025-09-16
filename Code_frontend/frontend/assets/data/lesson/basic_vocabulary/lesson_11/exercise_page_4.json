@@ -1,0 +1,11 @@
+{
+  "Bài 4:Đặc điểm vật":"Material characteristic",
+  "Nội dung bài học": [
+    { "Nặng": "Heavy" },
+    { "Nhẹ": "Light" },
+    { "Tròn": "Round" },
+    { "Mỏng": "Thin" },
+    { "Mềm": "Soft" },
+    { "Cứng": "Hard" }
+  ]
+}

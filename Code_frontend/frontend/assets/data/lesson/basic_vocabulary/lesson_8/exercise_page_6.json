@@ -1,0 +1,11 @@
+{
+  "Bài 6:Hiện tượng thời tiết":"Weather phenomena",
+  "Nội dung bài học": [
+    { "Bão": "Stromy" },
+    { "Tuyết": "Snowy" },
+    { "Sương mù": "Foggy" },
+    { "Bão có sấm sét": "Thunderstrom" },
+    { "Khí hậu": "Climate" },
+    { "Clear": "Trời quang,trong lành" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Bài 1:Thời tiết":"Weather",
+  "Nội dung bài học": [
+    { "Nắng": "Sunny" },
+    { "Mưa": "Rainy" },
+    { "Trời mây": "Cloudy" },
+    { "Trời gió": "Windy" },
+    { "Nóng": "Hot" },
+    { "Lạnh": "Cold" }
+  ]
+}

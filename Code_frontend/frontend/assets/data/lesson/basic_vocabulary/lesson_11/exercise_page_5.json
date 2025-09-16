@@ -1,0 +1,11 @@
+{
+  "Bài 5:Cảm xúc":"Emotion",
+  "Nội dung bài học": [
+    { "Vui vẻ": "Happy" },
+    { "Buồn": "Sad" },
+    { "Tức giận": "Angry" },
+    { "Tò mò": "Curious" },
+    { "Ngại ngùng": "Shy" },
+    { "Sợ hãi": "Fearful" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Bài 2:Địa điểm du lịch":"Tourist attraction",
+  "Nội dung bài học": [
+    { "Khách sạn": "Hotel" },
+    { "Biển": "Beach" },
+    { "Bảo tàng": "Museum" },
+    { "Công viên": "Park" },
+    { "Thành phố": "City" },
+    { "Sân bay": "Airport" }
+  ]
+}

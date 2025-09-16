@@ -1,0 +1,11 @@
+{
+  "Bài 4:Sự kiện giải trí":"Entertainment event",
+  "Nội dung bài học": [
+    { "Lễ hội": "Festival" },
+    { "Câu lạc bộ": "Club" },
+    { "Buổi trình diễn": "Performance" },
+    { "Hội chợ": "Fair" },
+    { "Sân khấu": "Stage" },
+    { "Nhà hát": "Theater" }
+  ]
+}

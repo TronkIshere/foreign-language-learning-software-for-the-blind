@@ -1,0 +1,11 @@
+{
+  "Bài 2:Mùa":"Season",
+  "Nội dung bài học": [
+    { "Mùa xuân": "Spring" },
+    { "Mùa hè": "Summer" },
+    { "Mùa thu": "Autumn" },
+    { "Mùa đông": "Winter" },
+    { "Thời tiết": "Weather" },
+    { "Dự báo": "Forecast" }
+  ]
+}

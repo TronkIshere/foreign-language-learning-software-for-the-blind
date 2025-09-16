@@ -1,0 +1,11 @@
+{
+  "Bài 3:Hoạt động thời tiết":"Seasonal activitty",
+  "Nội dung bài học": [
+    { "Mặc đồ": "Wear" },
+    { "Tắm nắng": "Sunbathe" },
+    { "Đi bộ": "Walking" },
+    { "Chạy bộ": "Jogging" },
+    { "Tập thể dục": "Exercise" },
+    { "Câu cá": "Fishing" }
+  ]
+}

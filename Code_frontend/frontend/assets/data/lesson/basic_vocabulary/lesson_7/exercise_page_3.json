@@ -1,0 +1,11 @@
+{
+  "Bài 3:Hành động du lịch":"Travel activity",
+  "Nội dung bài học": [
+    { "Du lịch": "Travel" },
+    { "Viếng thăm": "Visit" },
+    { "Ở lại": "Stay" },
+    { "Đặt chỗ": "Booking" },
+    { "Đến nơi": "Arrive" },
+    { "Rời đi": "Leave" }
+  ]
+}

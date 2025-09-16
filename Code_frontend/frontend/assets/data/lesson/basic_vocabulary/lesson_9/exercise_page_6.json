@@ -1,0 +1,11 @@
+{
+  "Bài 6:Mô tả sở thích":"Hobby description",
+  "Nội dung bài học": [
+    { "Yêu thích": "Favorite" },
+    { "Vui": "Fun" },
+    { "Thú vị": "Interesting" },
+    { "Buồn chán": "Boring" },
+    { "Thích thú": "Exciting" },
+    { "Thư giản": "Relaxing" }
+  ]
+}

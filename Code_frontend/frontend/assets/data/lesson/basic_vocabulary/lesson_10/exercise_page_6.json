@@ -1,0 +1,11 @@
+{
+  "Bài 6:Triệu chứng":"Symptom",
+  "Nội dung bài học": [
+    { "Đau bụng": "Stomach ache" },
+    { "Đau răng": "Toothache" },
+    { "Hắt xì": "Sneeze" },
+    { "Đau nhức": "Sore" },
+    { "Đau khớp": "Joint pain" },
+    { "Viêm họng": "Sore throat" }
+  ]
+}

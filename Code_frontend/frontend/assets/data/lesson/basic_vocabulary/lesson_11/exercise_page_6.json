@@ -1,0 +1,11 @@
+{
+  "Bài 6:So sánh":"Comparison",
+  "Nội dung bài học": [
+    { "Tốt": "Good" },
+    { "Tệ": "Worse" },
+    { "Như nhau,bằng nhau": "Same" },
+    { "Khác nhau": "Different" },
+    { "Nhiều": "More" },
+    { "Ít": "Less" }
+  ]
+}
