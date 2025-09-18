@@ -1,0 +1,32 @@
+{
+  "basePath": "assets/data/lesson/alphabet/",
+  "Nội dung bài học": [
+    {
+      "Bài 9: I": "exercise_page_9.json"
+    },{
+      "Bài 10: J": "exercise_page_10.json"
+    }, {
+      "Bài 11: K": "exercise_page_11.json"
+    }, {
+      "Bài 12: L": "exercise_page_12.json"
+    }, {
+      "Bài 13: M": "exercise_page_13.json"
+    }, {
+      "Bài 14: N": "exercise_page_14.json"
+    }, {
+      "Bài 15: O": "exercise_page_15.json"
+    }, {
+      "Bài 16: P": "exercise_page_16.json"
+    }
+  ],
+
+  "Phân trang": [
+    {
+      "Trang trước": "alphabet_lesson_page_1.json"
+    }, {
+      "Trang sau": "alphabet_lesson_page_3.json"
+    }, {
+      "Thoát": "assets/data/sub_menu/sub_menu_1.json"
+    }
+  ]
+}

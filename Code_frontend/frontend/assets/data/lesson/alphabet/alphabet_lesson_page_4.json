@@ -1,0 +1,32 @@
+{
+  "basePath": "assets/data/lesson/alphabet/",
+  "Nội dung bài học": [
+    {
+      "Bài 25: X": "exercise_page_25.json"
+    },{
+      "Bài 26: Y": "exercise_page_26.json"
+    }, {
+      "Bài 27: Z": "exercise_page_27.json"
+    }, {
+      "Trống": "Trống"
+    }, {
+      "Trống": "Trống"
+    }, {
+      "Trống": "Trống"
+    }, {
+      "Trống": "Trống"
+    }, {
+      "Trống": "Trống"
+    }
+  ],
+
+  "Phân trang": [
+    {
+      "Trang trước": "alphabet_lesson_page_3.json"
+    }, {
+      "Trang sau": false
+    }, {
+      "Thoát": "assets/data/sub_menu/sub_menu_1.json"
+    }
+  ]
+}
