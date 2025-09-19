@@ -1,0 +1,32 @@
+{
+  "basePath": "assets/data/lesson/listening/",
+  "Nội dung bài học": [
+    {
+      "Bài 1: Nội dung demo": "exercise_page_1.json"
+    },{
+      "Bài 2: ": false
+    }, {
+      "Bài 3: ": false
+    }, {
+      "Bài 4: ": false
+    }, {
+      "Bài 5: ": false
+    }, {
+      "Bài 6: ": false
+    }, {
+      "Bài 7: ": false
+    }, {
+      "Bài 8: ": false
+    }
+  ],
+
+  "Phân trang": [
+    {
+      "Trang trước": false
+    }, {
+      "Trang sau": "listening_lesson_page_2.json"
+    }, {
+      "Thoát": "assets/data/sub_menu/sub_menu_1.json"
+    }
+  ]
+}

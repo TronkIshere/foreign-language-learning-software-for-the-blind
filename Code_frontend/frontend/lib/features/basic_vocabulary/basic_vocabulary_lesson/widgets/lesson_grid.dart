@@ -20,8 +20,11 @@ class LessonGrid extends StatelessWidget {
           itemCount: lessons.length,
           itemBuilder: (context, index) {
             String title = lessons[index].keys.first;
-            String path = lessons[index].values.first;
-            return LessonBox(text: title, ttsService: ttsService, jsonPath: "$basePath$path");
+            dynamic rawValue = lessons[index].values.first;
+
+            String? path = (rawValue is String) ? "$basePath$rawValue" : null;
+
+            return LessonBox(text: title, ttsService: ttsService, jsonPath: path);
           },
         );
       },

@@ -32,8 +32,17 @@ flutter:
     - assets/data/lesson/alphabet/
     - assets/data/lesson/basic_vocabulary/
     - assets/data/lesson/basic_vocabulary/lesson_1/
+    - assets/data/lesson/basic_vocabulary/lesson_10/
+    - assets/data/lesson/basic_vocabulary/lesson_11/
+    - assets/data/lesson/basic_vocabulary/lesson_12/
     - assets/data/lesson/basic_vocabulary/lesson_2/
     - assets/data/lesson/basic_vocabulary/lesson_3/
+    - assets/data/lesson/basic_vocabulary/lesson_4/
+    - assets/data/lesson/basic_vocabulary/lesson_5/
+    - assets/data/lesson/basic_vocabulary/lesson_6/
+    - assets/data/lesson/basic_vocabulary/lesson_7/
+    - assets/data/lesson/basic_vocabulary/lesson_8/
+    - assets/data/lesson/basic_vocabulary/lesson_9/
     - assets/data/lesson/listening/
     - assets/data/lesson/speaking/
     - assets/data/sub_menu/
