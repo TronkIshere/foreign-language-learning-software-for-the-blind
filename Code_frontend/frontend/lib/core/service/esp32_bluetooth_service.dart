@@ -1,53 +1,45 @@
 import 'dart:convert';
+import 'dart:typed_data';
 
-import 'package:flutter_blue_plus/flutter_blue_plus.dart';
+import 'package:flutter_bluetooth_serial_plus/flutter_bluetooth_serial_plus.dart';
 
 class Esp32BluetoothService {
   final String deviceName = "ESP32-Braille";
   BluetoothDevice? connectedDevice;
-  BluetoothCharacteristic? writeCharacteristic;
+  BluetoothConnection? connection;
 
   Future<void> connect() async {
-    await FlutterBluePlus.startScan(timeout: const Duration(seconds: 5));
-
     try {
-      var results = await FlutterBluePlus.scanResults.firstWhere(
-        (devices) => devices.any((r) => r.device.name == deviceName),
+      List<BluetoothDevice> bondedDevices = await FlutterBluetoothSerial.instance.getBondedDevices();
+
+      connectedDevice = bondedDevices.firstWhere(
+        (d) => d.name == deviceName,
+        orElse: () => throw Exception("Không tìm thấy thiết bị $deviceName"),
       );
-      await FlutterBluePlus.stopScan();
 
-      var result = results.firstWhere((r) => r.device.name == deviceName);
-      connectedDevice = result.device;
+      connection = await BluetoothConnection.toAddress(connectedDevice!.address);
 
-      await connectedDevice!.connect();
-
-      var services = await connectedDevice!.discoverServices();
-      for (var service in services) {
-        for (var characteristic in service.characteristics) {
-          if (characteristic.properties.write) {
-            writeCharacteristic = characteristic;
-            print("Đã tìm thấy writeCharacteristic");
-            return;
-          }
-        }
-      }
-      print("Không tìm thấy writeCharacteristic");
+      print("✅ Đã kết nối đến ${connectedDevice!.name}");
     } catch (e) {
-      print("Không kết nối được ESP32-Braille: $e");
+      print("❌ Không kết nối được ESP32-Braille: $e");
     }
   }
 
   Future<void> sendBraille(Map<String, bool> dots) async {
-    if (writeCharacteristic == null) {
-      return;
+    if (connection != null && connection!.isConnected) {
+      final jsonData = json.encode(dots) + "\n";
+      connection!.output.add(Uint8List.fromList(utf8.encode(jsonData)));
+      await connection!.output.allSent;
+      print("📤 Đã gửi: $jsonData");
+    } else {
+      print("⚠️ Chưa kết nối, không thể gửi dữ liệu");
     }
-    final jsonData = json.encode(dots);
-    await writeCharacteristic!.write(utf8.encode(jsonData));
   }
 
   Future<void> disconnect() async {
-    await connectedDevice?.disconnect();
+    await connection?.close();
     connectedDevice = null;
-    writeCharacteristic = null;
+    connection = null;
+    print("🔌 Đã ngắt kết nối ESP32");
   }
 }

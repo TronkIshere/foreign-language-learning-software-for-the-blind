@@ -15,9 +15,9 @@
                      tools:targetApi="s" />
 
     <application
-            android:label="frontend"
-            android:name="${applicationName}"
-            android:icon="@mipmap/ic_launcher">
+            android:label="GreenHexagon"
+            android:icon="@mipmap/ic_launcher"
+            android:name="${applicationName}">
         <activity
                 android:name=".MainActivity"
                 android:exported="true"

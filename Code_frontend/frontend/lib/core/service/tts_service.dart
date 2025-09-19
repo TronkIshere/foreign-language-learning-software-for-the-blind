@@ -37,13 +37,19 @@ class TtsService {
 
   Future<void> spellOutEn(String word) async {
     await setLanguage("en-US");
+
+    if (_esp32.connection == null || !_esp32.connection!.isConnected) {
+      await _esp32.connect();
+    }
+
     for (int i = 0; i < word.length; i++) {
       String char = word[i];
       if (char.trim().isEmpty) continue;
       await _flutterTts.speak(char);
 
-      if (brailleMap.containsKey(char)) {
-        await _esp32.sendBraille(brailleMap[char]!);
+      if (brailleMap.containsKey(char.toLowerCase())) {
+        await _esp32.sendBraille(brailleMap[char.toLowerCase()]!);
+        print(char);
       }
 
       await Future.delayed(const Duration(milliseconds: 1000));

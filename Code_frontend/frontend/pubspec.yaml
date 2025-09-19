@@ -15,9 +15,9 @@ dependencies:
   http: ^1.4.0
   flutter_launcher_icons: ^0.14.4
   flutter_tts: ^4.2.3
-  flutter_blue_plus: ^1.35.10
   permission_handler: ^12.0.1
   asset_fill: ^2.0.0
+  flutter_bluetooth_serial_plus: ^0.5.1
 
 dev_dependencies:
   flutter_test:
