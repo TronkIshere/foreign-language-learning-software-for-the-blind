@@ -1,7 +1,10 @@
+import 'package:GreenHexagon/core/service/braille_map.dart';
+import 'package:GreenHexagon/core/service/esp32_bluetooth_service.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 class TtsService {
   final FlutterTts _flutterTts = FlutterTts();
+  final Esp32BluetoothService _esp32 = Esp32BluetoothService();
   String _currentLanguage = "vi-VN";
 
   TtsService() {
@@ -38,7 +41,12 @@ class TtsService {
       String char = word[i];
       if (char.trim().isEmpty) continue;
       await _flutterTts.speak(char);
-      await Future.delayed(const Duration(milliseconds: 800));
+
+      if (brailleMap.containsKey(char)) {
+        await _esp32.sendBraille(brailleMap[char]!);
+      }
+
+      await Future.delayed(const Duration(milliseconds: 1000));
     }
   }
 
