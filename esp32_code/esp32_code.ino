@@ -4,6 +4,8 @@
 
 BluetoothSerial SerialBT;
 
+const int dotPins[6] = {14, 27, 26, 25, 33, 32};
+
 String readBluetoothJson() {
   if (!SerialBT.available()) return "";
   String input = SerialBT.readStringUntil('\n');
@@ -11,38 +13,45 @@ String readBluetoothJson() {
   return input;
 }
 
-String parseBrailleJson(const String &input) {
+void applyBraillePins(const String &input) {
+  if (input.isEmpty()) return;
+
   StaticJsonDocument<200> doc;
   DeserializationError error = deserializeJson(doc, input);
 
   if (error) {
-    return "❌ JSON parse failed: " + String(error.c_str());
+    Serial.println("❌ JSON parse failed: " + String(error.c_str()));
+    return;
+  }
+
+  for (int i = 0; i < 6; i++) {
+    digitalWrite(dotPins[i], LOW);
   }
 
   String status = "";
-  for (int i = 1; i <= 6; i++) {
-    String key = "dot" + String(i);
+  for (int i = 0; i < 6; i++) {
+    String key = "dot" + String(i + 1);
     if (doc.containsKey(key)) {
-      status += key + "=" + String(doc[key].as<bool>() ? "1" : "0");
+      bool value = doc[key].as<bool>();
+      digitalWrite(dotPins[i], value ? HIGH : LOW);   
+      status += key + "=" + (value ? String("1") : String("0"));
     } else {
       status += key + "=x";
     }
-    if (i < 6) status += " | ";
+    if (i < 5) status += " | ";
   }
-  return status;
-}
 
-void printBrailleStatus(const String &input) {
-  if (input.isEmpty()) return;
-
-  Serial.println("📩 Received raw: " + input);
-  String status = parseBrailleJson(input);
   Serial.println("👉 Braille State: " + status);
   Serial.println("------------------------------");
 }
 
 void setup() {
   Serial.begin(115200);
+
+  for (int i = 0; i < 6; i++) {
+    pinMode(dotPins[i], OUTPUT);
+    digitalWrite(dotPins[i], LOW); 
+  }
 
   if (!SerialBT.begin("ESP32-Braille", false)) {  
     Serial.println("⚠️ Bluetooth init failed!");
@@ -54,7 +63,10 @@ void setup() {
 void loop() {
   if (SerialBT.hasClient()) {
     String jsonInput = readBluetoothJson();
-    printBrailleStatus(jsonInput);
+    if (!jsonInput.isEmpty()) {
+      Serial.println("📩 Received raw: " + jsonInput);
+      applyBraillePins(jsonInput);
+    }
   } else {
     static unsigned long lastPrint = 0;
     if (millis() - lastPrint > 5000) {
