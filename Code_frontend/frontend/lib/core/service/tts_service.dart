@@ -15,7 +15,7 @@ class TtsService {
 
   Future<void> speak(String text) async {
     await _flutterTts.stop();
-    await Future.delayed(const Duration(milliseconds: 100)); //
+    await Future.delayed(const Duration(milliseconds: 100));
     await _flutterTts.speak(text);
   }
 
@@ -52,7 +52,7 @@ class TtsService {
         print(char);
       }
 
-      await Future.delayed(const Duration(milliseconds: 1000));
+      await Future.delayed(const Duration(milliseconds: 2000));
     }
   }
 
